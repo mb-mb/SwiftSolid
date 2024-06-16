@@ -35,25 +35,26 @@ Este projeto demonstra um sistema de cálculo de preços de produtos com diferen
 ProjectRoot
 │
 ├── Models
-│ ├── Product.swift
+│   ├── Product.swift
 │
 ├── Calculators
-│ ├── TaxCalculator.swift
-│ ├── BasicTaxCalculator.swift
-│ ├── ImportedTaxCalculator.swift
-│ ├── ComplexTaxCalculator.swift
-│ ├── LuxuryTaxCalculator.swift
+│   ├── TaxCalculator.swift
+│   ├── BasicTaxCalculator.swift
+│   ├── ImportedTaxCalculator.swift
+│   ├── ComplexTaxCalculator.swift
+│   ├── LuxuryTaxCalculator.swift
 │
 ├── Services
-│ ├── PriceCalculator.swift
+│   ├── PriceCalculator.swift
 │
 ├── Tests
-│ ├── PriceCalculatorTests.swift
-│ ├── LuxuryTaxCalculatorTests.swift
+│   ├── PriceCalculatorTests.swift
+│   ├── LuxuryTaxCalculatorTests.swift
 │
 ├── main.swift
 ├── README.md
 ├── LICENSE
+
 
 
 - **Models**: Define a estrutura do produto (`Product`).
@@ -78,6 +79,7 @@ Product.swift: Define um produto com nome e preço.
 TaxCalculator.swift: Define a interface para cálculos de impostos.
 BasicTaxCalculator.swift, ImportedTaxCalculator.swift, ComplexTaxCalculator.swift, LuxuryTaxCalculator.swift: Implementam diferentes estratégias de cálculo de impostos.
 PriceCalculator.swift: Calcula o preço total combinando o produto e o imposto.
+
 ## Open/Closed Principle (OCP)
 As classes de calculadoras de imposto (BasicTaxCalculator, ImportedTaxCalculator, etc.) podem ser estendidas sem modificar as classes existentes. Novas estratégias de cálculo de impostos podem ser adicionadas criando novas classes que implementam TaxCalculator.
 
@@ -85,22 +87,25 @@ As classes de calculadoras de imposto (BasicTaxCalculator, ImportedTaxCalculator
 Todas as classes que implementam TaxCalculator podem ser usadas no lugar uma da outra sem alterar a funcionalidade do PriceCalculator.
 
 ## Interface Segregation Principle (ISP)
-A interface TaxCalculator define métodos necessários para cálculo de impostos. A interface ExtendedTaxCalculator adiciona funcionalidades específicas adicionais, garantindo que implementações não precisem suportar métodos que não utilizam.
+A interface TaxCalculator define métodos necessários para cálculo de impostos. 
+A interface ExtendedTaxCalculator adiciona funcionalidades específicas adicionais,
+garantindo que implementações não precisem suportar métodos que não utilizam.
 
 ## Dependency Inversion Principle (DIP)
 PriceCalculator depende da abstração TaxCalculator, permitindo maior flexibilidade e desacoplamento.
 
-##Testes
+## Testes
 Testes unitários estão localizados na pasta Tests. Eles garantem que cada componente funciona conforme esperado:
 
-##PriceCalculatorTests.swift: Testa a funcionalidade do cálculo de preço total com diferentes calculadoras de impostos.
+## PriceCalculatorTests.swift
+Testa a funcionalidade do cálculo de preço total com diferentes calculadoras de impostos.
 LuxuryTaxCalculatorTests.swift: Testa a funcionalidade da calculadora de imposto de luxo.
 Para rodar os testes:
 
-bash
-Copiar código
+```bash
 swift test
-Contribuição
+
+## Contribuição
 Contribuições são bem-vindas! Para contribuir, siga estas etapas:
 
 Faça um fork do repositório.
