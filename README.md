@@ -72,8 +72,8 @@ ProjectRoot
    swift run
 ```
 
-## **Test project**
-    ```bash
+**Test project**
+   ```bash
    swift test
 
 ```
