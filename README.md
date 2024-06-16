@@ -32,8 +32,6 @@ Este projeto demonstra um sistema de cálculo de preços de produtos com diferen
 
 ## **Estrutura do Projeto**
 
-## **Estrutura do Projeto**
-
 ```plaintext
 📂 swift-solid-example/
 │
