@@ -70,10 +70,13 @@ ProjectRoot
    git clone https://github.com/seu-usuario/swift-solid-example.git
    cd swift-solid-example
    swift run
-   
-**test project**: 
+```
+
+## **Test project**
+    ```bash
    swift test
 
+```
 
 ## Princípios SOLID
 ## Single Responsibility Principle (SRP)
@@ -104,10 +107,6 @@ Testes unitários estão localizados na pasta Tests. Eles garantem que cada comp
 ## PriceCalculatorTests.swift
 Testa a funcionalidade do cálculo de preço total com diferentes calculadoras de impostos.
 LuxuryTaxCalculatorTests.swift: Testa a funcionalidade da calculadora de imposto de luxo.
-
-**Para rodar os testes:**:
-    ```bash
-    swift test
 
 ## Contribuição
 Contribuições são bem-vindas! Para contribuir, siga estas etapas:
