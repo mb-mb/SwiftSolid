@@ -24,6 +24,7 @@
 		9DF04F102C1F70440033BE50 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F0F2C1F70440033BE50 /* Product.swift */; };
 		9DF04F132C1F706E0033BE50 /* TaxCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F122C1F706E0033BE50 /* TaxCalculator.swift */; };
 		9DF04F152C1F70A90033BE50 /* BasicTaxCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F142C1F70A90033BE50 /* BasicTaxCalculator.swift */; };
+		9DF04F172C1F75FC0033BE50 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DF04F162C1F75FC0033BE50 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		9DF04F0F2C1F70440033BE50 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		9DF04F122C1F706E0033BE50 /* TaxCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator.swift; sourceTree = "<group>"; };
 		9DF04F142C1F70A90033BE50 /* BasicTaxCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTaxCalculator.swift; sourceTree = "<group>"; };
+		9DF04F162C1F75FC0033BE50 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				9DD89C472C1C78A000A90E44 /* SceneDelegate.swift */,
 				9DD89C492C1C78A000A90E44 /* ViewController.swift */,
 				9DD89C4B2C1C78A000A90E44 /* Main.storyboard */,
+				9DF04F162C1F75FC0033BE50 /* README.md */,
 				9DD89C4E2C1C78A100A90E44 /* Assets.xcassets */,
 				9DD89C502C1C78A100A90E44 /* LaunchScreen.storyboard */,
 				9DD89C532C1C78A100A90E44 /* Info.plist */,
@@ -281,6 +284,7 @@
 			files = (
 				9DD89C4F2C1C78A100A90E44 /* Assets.xcassets in Resources */,
 				9DD89C522C1C78A100A90E44 /* Base in Resources */,
+				9DF04F172C1F75FC0033BE50 /* README.md in Resources */,
 				9DD89C4D2C1C78A000A90E44 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
