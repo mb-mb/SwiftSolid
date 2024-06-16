@@ -32,29 +32,32 @@ Este projeto demonstra um sistema de cálculo de preços de produtos com diferen
 
 ## **Estrutura do Projeto**
 
-ProjectRoot
-│
-├── Models
-│   ├── Product.swift
-│
-├── Calculators
-│   ├── TaxCalculator.swift
-│   ├── BasicTaxCalculator.swift
-│   ├── ImportedTaxCalculator.swift
-│   ├── ComplexTaxCalculator.swift
-│   ├── LuxuryTaxCalculator.swift
-│
-├── Services
-│   ├── PriceCalculator.swift
-│
-├── Tests
-│   ├── PriceCalculatorTests.swift
-│   ├── LuxuryTaxCalculatorTests.swift
-│
-├── main.swift
-├── README.md
-├── LICENSE
+## **Estrutura do Projeto**
 
+```plaintext
+📂 swift-solid-example/
+│
+├── 📂 Models/                           # Define a estrutura dos dados
+│   └── 📄 Product.swift                 # Modelo de dados para um produto
+│
+├── 📂 Calculators/                      # Implementa diferentes estratégias de cálculo de impostos
+│   ├── 📄 TaxCalculator.swift           # Interface para cálculo de impostos
+│   ├── 📄 BasicTaxCalculator.swift      # Implementa cálculo básico de impostos
+│   ├── 📄 ImportedTaxCalculator.swift   # Implementa cálculo de impostos para produtos importados
+│   ├── 📄 ComplexTaxCalculator.swift    # Implementa cálculo de impostos complexos
+│   └── 📄 LuxuryTaxCalculator.swift     # Implementa cálculo de impostos para produtos de luxo
+│
+├── 📂 Services/                         # Contém a lógica de negócios
+│   └── 📄 PriceCalculator.swift         # Calcula o preço total combinando produto e imposto
+│
+├── 📂 Tests/                            # Contém testes unitários
+│   ├── 📄 PriceCalculatorTests.swift    # Testa a funcionalidade do cálculo de preços
+│   └── 📄 LuxuryTaxCalculatorTests.swift # Testa a funcionalidade do cálculo de impostos de luxo
+│
+├── 📄 main.swift                        # Ponto de entrada para a execução do programa
+├── 📄 README.md                         # Documentação do projeto
+└── 📄 LICENSE                           # Informações de licença
+```
 
 
 - **Models**: Define a estrutura do produto (`Product`).
@@ -112,8 +115,10 @@ LuxuryTaxCalculatorTests.swift: Testa a funcionalidade da calculadora de imposto
 Contribuições são bem-vindas! Para contribuir, siga estas etapas:
 
 Faça um fork do repositório.
-Crie uma branch: git checkout -b my-feature-branch.
-Faça suas alterações e commit: git commit -m 'Add some feature'.
-Envie para a branch original: git push origin my-feature-branch.
-Crie um Pull Request.
+- Crie uma branch: git checkout -b my-feature-branch.
+- Faça suas alterações e commit: git commit -m 'Add some feature'.
+- Envie para a branch original: git push origin my-feature-branch.
+- Crie um Pull Request.
 
+## Licença
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
