@@ -150,7 +150,7 @@ Testa a funcionalidade do cálculo de preço total com diferentes calculadoras d
 LuxuryTaxCalculatorTests.swift: Testa a funcionalidade da calculadora de imposto de luxo.
 
 ## Arquitetura VIPER
-** VIPER é uma arquitetura que divide as funcionalidades em cinco componentes principais: **
+**VIPER é uma arquitetura que divide as funcionalidades em cinco componentes principais:**
 
 - View: Responsável pela interface do usuário.
 - Interactor: Contém a lógica de negócios do módulo.
