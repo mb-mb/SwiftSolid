@@ -149,7 +149,7 @@ Testes unitários estão localizados na pasta Tests. Eles garantem que cada comp
 Testa a funcionalidade do cálculo de preço total com diferentes calculadoras de impostos.
 LuxuryTaxCalculatorTests.swift: Testa a funcionalidade da calculadora de imposto de luxo.
 
-##**Arquitetura VIPER**
+## Arquitetura VIPER
 **VIPER é uma arquitetura que divide as funcionalidades em cinco componentes principais:
 
 - View: Responsável pela interface do usuário.
@@ -159,7 +159,7 @@ LuxuryTaxCalculatorTests.swift: Testa a funcionalidade da calculadora de imposto
 - Entity: Modelos de dados utilizados pelo Interactor.
 
 
-##Módulo Calculation
+## Módulo Calculation
 **Arquivos**
 - CalculationViewController.swift: Gerencia a interface do usuário para cálculos.
 - CalculationPresenter.swift: Media a comunicação entre a View e o Interactor.
@@ -168,7 +168,7 @@ LuxuryTaxCalculatorTests.swift: Testa a funcionalidade da calculadora de imposto
 - Protocols: Define os contratos de comunicação entre os componentes do módulo.
 
 
-##Módulo Contacts
+## Módulo Contacts
 **Arquivos**
 - ContactsViewController.swift: Gerencia a interface do usuário para contatos.
 - ContactsPresenter.swift: Media a comunicação entre a View e o Interactor.
