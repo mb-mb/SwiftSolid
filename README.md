@@ -87,14 +87,14 @@ Este projeto demonstra um sistema de cálculo de preços de produtos com diferen
 └── 📂 Tests/                            # Contém testes unitários
     ├── 📄 PriceCalculatorTests.swift    # Testa a funcionalidade do cálculo de preços
     └── 📄 LuxuryTaxCalculatorTests.swift # Testa a funcionalidade do cálculo de impostos de luxo
-
+```
 
 - **Models**: Define a estrutura do produto (`Product`).
 - **Calculators**: Implementa diferentes estratégias de cálculo de impostos.
+- **Contacts**: Implementa diferentes estratégias para contatos.
 - **Services**: Contém a lógica de cálculo de preço total (`PriceCalculator`).
 - **Tests**: Contém os testes unitários para garantir a funcionalidade do sistema.
 
-```
 
 ## **Configuração**
 **Pré-requisitos**
@@ -150,7 +150,7 @@ Testa a funcionalidade do cálculo de preço total com diferentes calculadoras d
 LuxuryTaxCalculatorTests.swift: Testa a funcionalidade da calculadora de imposto de luxo.
 
 ## Arquitetura VIPER
-**VIPER é uma arquitetura que divide as funcionalidades em cinco componentes principais:
+** VIPER é uma arquitetura que divide as funcionalidades em cinco componentes principais: **
 
 - View: Responsável pela interface do usuário.
 - Interactor: Contém a lógica de negócios do módulo.
