@@ -33,7 +33,7 @@ Este projeto demonstra um sistema de cálculo de preços de produtos com diferen
 ## **Estrutura do Projeto**
 
 ```plaintext
-📂 swift-solid-example/
+📂 SolidApp/
 │
 ├── 📂 Models/                           # Define a estrutura dos dados
 │   └── 📄 Product.swift                 # Modelo de dados para um produto

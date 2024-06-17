@@ -25,6 +25,20 @@
 		9DF04F132C1F706E0033BE50 /* TaxCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F122C1F706E0033BE50 /* TaxCalculator.swift */; };
 		9DF04F152C1F70A90033BE50 /* BasicTaxCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F142C1F70A90033BE50 /* BasicTaxCalculator.swift */; };
 		9DF04F172C1F75FC0033BE50 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DF04F162C1F75FC0033BE50 /* README.md */; };
+		9DF04F192C1F90A20033BE50 /* CalculationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F182C1F90A20033BE50 /* CalculationResult.swift */; };
+		9DF04F1E2C1FA8670033BE50 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F1D2C1FA8670033BE50 /* CalculationViewController.swift */; };
+		9DF04F212C1FA8B80033BE50 /* CalculationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F202C1FA8B80033BE50 /* CalculationPresenter.swift */; };
+		9DF04F242C1FA90A0033BE50 /* CalculationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F232C1FA90A0033BE50 /* CalculationInteractor.swift */; };
+		9DF04F282C1FA9740033BE50 /* CalculationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F272C1FA9740033BE50 /* CalculationRouter.swift */; };
+		9DF04F2B2C1FAA030033BE50 /* TaxCalculatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F2A2C1FAA030033BE50 /* TaxCalculatorType.swift */; };
+		9DF04F2F2C1FC4480033BE50 /* ContactsRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F2E2C1FC4480033BE50 /* ContactsRouterProtocol.swift */; };
+		9DF04F322C1FC5190033BE50 /* ContactsViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F312C1FC5190033BE50 /* ContactsViewProtocol.swift */; };
+		9DF04F352C1FC5560033BE50 /* ContactsPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F342C1FC5560033BE50 /* ContactsPresenterProtocol.swift */; };
+		9DF04F382C1FC5990033BE50 /* ContactsInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F372C1FC5990033BE50 /* ContactsInteractorProtocol.swift */; };
+		9DF04F3A2C1FC5EA0033BE50 /* ContactsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F392C1FC5EA0033BE50 /* ContactsRouter.swift */; };
+		9DF04F3C2C1FC6A70033BE50 /* ContactsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F3B2C1FC6A70033BE50 /* ContactsInteractor.swift */; };
+		9DF04F3E2C1FC6E30033BE50 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F3D2C1FC6E30033BE50 /* ContactsViewController.swift */; };
+		9DF04F402C1FC76A0033BE50 /* ContactsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04F3F2C1FC76A0033BE50 /* ContactsPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +81,20 @@
 		9DF04F122C1F706E0033BE50 /* TaxCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculator.swift; sourceTree = "<group>"; };
 		9DF04F142C1F70A90033BE50 /* BasicTaxCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTaxCalculator.swift; sourceTree = "<group>"; };
 		9DF04F162C1F75FC0033BE50 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		9DF04F182C1F90A20033BE50 /* CalculationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationResult.swift; sourceTree = "<group>"; };
+		9DF04F1D2C1FA8670033BE50 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
+		9DF04F202C1FA8B80033BE50 /* CalculationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationPresenter.swift; sourceTree = "<group>"; };
+		9DF04F232C1FA90A0033BE50 /* CalculationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationInteractor.swift; sourceTree = "<group>"; };
+		9DF04F272C1FA9740033BE50 /* CalculationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationRouter.swift; sourceTree = "<group>"; };
+		9DF04F2A2C1FAA030033BE50 /* TaxCalculatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalculatorType.swift; sourceTree = "<group>"; };
+		9DF04F2E2C1FC4480033BE50 /* ContactsRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsRouterProtocol.swift; sourceTree = "<group>"; };
+		9DF04F312C1FC5190033BE50 /* ContactsViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewProtocol.swift; sourceTree = "<group>"; };
+		9DF04F342C1FC5560033BE50 /* ContactsPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsPresenterProtocol.swift; sourceTree = "<group>"; };
+		9DF04F372C1FC5990033BE50 /* ContactsInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInteractorProtocol.swift; sourceTree = "<group>"; };
+		9DF04F392C1FC5EA0033BE50 /* ContactsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsRouter.swift; sourceTree = "<group>"; };
+		9DF04F3B2C1FC6A70033BE50 /* ContactsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInteractor.swift; sourceTree = "<group>"; };
+		9DF04F3D2C1FC6E30033BE50 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		9DF04F3F2C1FC76A0033BE50 /* ContactsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +145,7 @@
 		9DD89C442C1C78A000A90E44 /* SolidApp */ = {
 			isa = PBXGroup;
 			children = (
+				9DF04F1A2C1FA7FA0033BE50 /* Modules */,
 				9DF04F112C1F70510033BE50 /* Calculators */,
 				9DF04F0E2C1F702B0033BE50 /* Models */,
 				9DF04F032C1E55C60033BE50 /* Services */,
@@ -176,6 +205,123 @@
 				9DF04F142C1F70A90033BE50 /* BasicTaxCalculator.swift */,
 			);
 			path = Calculators;
+			sourceTree = "<group>";
+		};
+		9DF04F1A2C1FA7FA0033BE50 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F2C2C1FC38E0033BE50 /* Contacts */,
+				9DF04F1B2C1FA80A0033BE50 /* Calculation */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9DF04F1B2C1FA80A0033BE50 /* Calculation */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F292C1FA9E10033BE50 /* Enums */,
+				9DF04F262C1FA9460033BE50 /* Router */,
+				9DF04F252C1FA9230033BE50 /* Entity */,
+				9DF04F222C1FA8DA0033BE50 /* Interactor */,
+				9DF04F1F2C1FA89F0033BE50 /* Presentation */,
+				9DF04F1C2C1FA81B0033BE50 /* View */,
+			);
+			path = Calculation;
+			sourceTree = "<group>";
+		};
+		9DF04F1C2C1FA81B0033BE50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F1D2C1FA8670033BE50 /* CalculationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DF04F1F2C1FA89F0033BE50 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F202C1FA8B80033BE50 /* CalculationPresenter.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9DF04F222C1FA8DA0033BE50 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F232C1FA90A0033BE50 /* CalculationInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9DF04F252C1FA9230033BE50 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F182C1F90A20033BE50 /* CalculationResult.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9DF04F262C1FA9460033BE50 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F272C1FA9740033BE50 /* CalculationRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9DF04F292C1FA9E10033BE50 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F2A2C1FAA030033BE50 /* TaxCalculatorType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		9DF04F2C2C1FC38E0033BE50 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F362C1FC5770033BE50 /* Interactor */,
+				9DF04F332C1FC5320033BE50 /* Presentation */,
+				9DF04F302C1FC4F10033BE50 /* View */,
+				9DF04F2D2C1FC3DA0033BE50 /* Router */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		9DF04F2D2C1FC3DA0033BE50 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F2E2C1FC4480033BE50 /* ContactsRouterProtocol.swift */,
+				9DF04F392C1FC5EA0033BE50 /* ContactsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9DF04F302C1FC4F10033BE50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F312C1FC5190033BE50 /* ContactsViewProtocol.swift */,
+				9DF04F3D2C1FC6E30033BE50 /* ContactsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DF04F332C1FC5320033BE50 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F342C1FC5560033BE50 /* ContactsPresenterProtocol.swift */,
+				9DF04F3F2C1FC76A0033BE50 /* ContactsPresenter.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9DF04F362C1FC5770033BE50 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04F372C1FC5990033BE50 /* ContactsInteractorProtocol.swift */,
+				9DF04F3B2C1FC6A70033BE50 /* ContactsInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,13 +457,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD89C4A2C1C78A000A90E44 /* ViewController.swift in Sources */,
+				9DF04F402C1FC76A0033BE50 /* ContactsPresenter.swift in Sources */,
+				9DF04F3E2C1FC6E30033BE50 /* ContactsViewController.swift in Sources */,
+				9DF04F322C1FC5190033BE50 /* ContactsViewProtocol.swift in Sources */,
+				9DF04F3A2C1FC5EA0033BE50 /* ContactsRouter.swift in Sources */,
+				9DF04F3C2C1FC6A70033BE50 /* ContactsInteractor.swift in Sources */,
 				9DF04F102C1F70440033BE50 /* Product.swift in Sources */,
+				9DF04F242C1FA90A0033BE50 /* CalculationInteractor.swift in Sources */,
+				9DF04F212C1FA8B80033BE50 /* CalculationPresenter.swift in Sources */,
 				9DF04F0B2C1F6F7F0033BE50 /* LuxuryTaxCalculator.swift in Sources */,
+				9DF04F2F2C1FC4480033BE50 /* ContactsRouterProtocol.swift in Sources */,
 				9DF04F072C1E671F0033BE50 /* ImportedTaxCalculator.swift in Sources */,
+				9DF04F282C1FA9740033BE50 /* CalculationRouter.swift in Sources */,
+				9DF04F1E2C1FA8670033BE50 /* CalculationViewController.swift in Sources */,
+				9DF04F382C1FC5990033BE50 /* ContactsInteractorProtocol.swift in Sources */,
 				9DF04F152C1F70A90033BE50 /* BasicTaxCalculator.swift in Sources */,
 				9DF04F132C1F706E0033BE50 /* TaxCalculator.swift in Sources */,
+				9DF04F352C1FC5560033BE50 /* ContactsPresenterProtocol.swift in Sources */,
 				9DF04F092C1E67870033BE50 /* ComplexCalculator.swift in Sources */,
+				9DF04F2B2C1FAA030033BE50 /* TaxCalculatorType.swift in Sources */,
 				9DD89C462C1C78A000A90E44 /* AppDelegate.swift in Sources */,
+				9DF04F192C1F90A20033BE50 /* CalculationResult.swift in Sources */,
 				9DD89C482C1C78A000A90E44 /* SceneDelegate.swift in Sources */,
 				9DF04F052C1E55F90033BE50 /* PriceCalculator.swift in Sources */,
 			);
