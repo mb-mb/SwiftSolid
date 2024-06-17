@@ -34,7 +34,43 @@ Este projeto demonstra um sistema de cálculo de preços de produtos com diferen
 
 ```plaintext
 📂 SolidApp/
-│
+│   ├── Calculation/
+│   │   ├── Interactor/
+│   │   │   └── CalculationInteractor.swift
+│   │   ├── Presenter/
+│   │   │   └── CalculationPresenter.swift
+│   │   ├── Router/
+│   │   │   └── CalculationRouter.swift
+│   │   ├── View/
+│   │   │   └── CalculationViewController.swift
+│   │   └── Protocols/
+│   │       ├── CalculationRouterProtocol.swift
+│   │       ├── CalculationViewProtocol.swift
+│   │       ├── CalculationPresenterProtocol.swift
+│   │       ├── CalculationInteractorInputProtocol.swift
+│   │       └── CalculationInteractorOutputProtocol.swift
+│   └── Contacts/
+│   │    ├── Interactor/
+│   │    │   └── ContactsInteractor.swift
+│   │    ├── Presenter/
+│   │    │   └── ContactsPresenter.swift
+│   │    ├── Router/
+│   │    │   └── ContactsRouter.swift
+│   │    ├── View/
+│   │    │   └── ContactsViewController.swift
+│   │    └── Protocols/
+│   │        ├── ContactsRouterProtocol.swift
+│   │        ├── ContactsViewProtocol.swift
+│   │        ├── ContactsPresenterProtocol.swift
+│   │        ├── ContactsInteractorInputProtocol.swift
+│   │        └── ContactsInteractorOutputProtocol.swift
+│   │
+│   ├── 📄 AppDelegate.swift
+│   ├── 📄 SceneDelegate.swift
+│   ├── 📄 Assets.xcassets
+│   ├── 📄 Info.plist
+│   └── 📄 README.md                         # Documentação do projeto
+│    
 ├── 📂 Models/                           # Define a estrutura dos dados
 │   └── 📄 Product.swift                 # Modelo de dados para um produto
 │
@@ -48,14 +84,9 @@ Este projeto demonstra um sistema de cálculo de preços de produtos com diferen
 ├── 📂 Services/                         # Contém a lógica de negócios
 │   └── 📄 PriceCalculator.swift         # Calcula o preço total combinando produto e imposto
 │
-├── 📂 Tests/                            # Contém testes unitários
-│   ├── 📄 PriceCalculatorTests.swift    # Testa a funcionalidade do cálculo de preços
-│   └── 📄 LuxuryTaxCalculatorTests.swift # Testa a funcionalidade do cálculo de impostos de luxo
-│
-├── 📄 main.swift                        # Ponto de entrada para a execução do programa
-├── 📄 README.md                         # Documentação do projeto
-└── 📄 LICENSE                           # Informações de licença
-```
+└── 📂 Tests/                            # Contém testes unitários
+    ├── 📄 PriceCalculatorTests.swift    # Testa a funcionalidade do cálculo de preços
+    └── 📄 LuxuryTaxCalculatorTests.swift # Testa a funcionalidade do cálculo de impostos de luxo
 
 
 - **Models**: Define a estrutura do produto (`Product`).
@@ -63,21 +94,30 @@ Este projeto demonstra um sistema de cálculo de preços de produtos com diferen
 - **Services**: Contém a lógica de cálculo de preço total (`PriceCalculator`).
 - **Tests**: Contém os testes unitários para garantir a funcionalidade do sistema.
 
-## **Como Executar**
-
-**Clone o repositório**:
-
-   ```bash
-   git clone https://github.com/seu-usuario/swift-solid-example.git
-   cd swift-solid-example
-   swift run
 ```
 
-**Test project**
-   ```bash
-   swift test
+## **Configuração**
+**Pré-requisitos**
+- Xcode 12.0 ou superior
+- Swift 5.0 ou superior
 
+## **Instalação**
+
+**1 - Clone o repositório**:
+
+   ```bash
+   git clone https://github.com/seu-usuario/SolidApp.git
+   cd SolidApp
 ```
+
+**2 - Abra o projeto no XCode**:
+
+   ```bash
+   open SolidApp.xcodeproj
+```
+
+**3 - Compile e execute o aplicativo no simulador  ou em um dispositivo**
+
 
 ## Princípios SOLID
 ## Single Responsibility Principle (SRP)
@@ -108,6 +148,33 @@ Testes unitários estão localizados na pasta Tests. Eles garantem que cada comp
 ## PriceCalculatorTests.swift
 Testa a funcionalidade do cálculo de preço total com diferentes calculadoras de impostos.
 LuxuryTaxCalculatorTests.swift: Testa a funcionalidade da calculadora de imposto de luxo.
+
+##**Arquitetura VIPER**
+**VIPER é uma arquitetura que divide as funcionalidades em cinco componentes principais:
+
+- View: Responsável pela interface do usuário.
+- Interactor: Contém a lógica de negócios do módulo.
+- Presenter: Atua como o mediador entre a View e o Interactor.
+- Router: Gerencia a navegação entre módulos.
+- Entity: Modelos de dados utilizados pelo Interactor.
+
+
+##Módulo Calculation
+**Arquivos**
+- CalculationViewController.swift: Gerencia a interface do usuário para cálculos.
+- CalculationPresenter.swift: Media a comunicação entre a View e o Interactor.
+- CalculationInteractor.swift: Contém a lógica de cálculos.
+- CalculationRouter.swift: Gerencia a navegação do módulo de cálculos.
+- Protocols: Define os contratos de comunicação entre os componentes do módulo.
+
+
+##Módulo Contacts
+**Arquivos**
+- ContactsViewController.swift: Gerencia a interface do usuário para contatos.
+- ContactsPresenter.swift: Media a comunicação entre a View e o Interactor.
+- ContactsInteractor.swift: Contém a lógica de gerenciamento de contatos.
+- ContactsRouter.swift: Gerencia a navegação do módulo de contatos.
+- Protocols: Define os contratos de comunicação entre os componentes do módulo.
 
 ## Contribuição
 Contribuições são bem-vindas! Para contribuir, siga estas etapas:

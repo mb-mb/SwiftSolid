@@ -8,8 +8,6 @@
 
 import Foundation
 
-
-// ImportedTaxCalculator.swift
 final class ImportedTaxCalculator: TaxCalculator {
     func calculateTax(for product: Product) -> Double {
         return product.price * 0.3

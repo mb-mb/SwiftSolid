@@ -7,7 +7,6 @@
 
 import Foundation
 
-// LuxuryTaxCalculator.swift
 class LuxuryTaxCalculator: TaxCalculator {
     private let threshold: Double
     private let basicTaxRate: Double

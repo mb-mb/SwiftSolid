@@ -8,7 +8,6 @@
 import Foundation
 
 
-// TaxCalculator.swift
 protocol TaxCalculator {
     func calculateTax(for product: Product) -> Double
 }

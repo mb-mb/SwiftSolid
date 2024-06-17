@@ -7,7 +7,6 @@
 
 import Foundation
 
-// Product.swift
 struct Product {
     let name: String
     let price: Double

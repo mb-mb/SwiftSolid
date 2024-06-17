@@ -9,7 +9,6 @@
 
 import Foundation
 
-// ExtendedTaxCalculator.swift
 protocol ExtendedTaxCalculator: TaxCalculator {
     func calculateImportDuty(for product: Product) -> Double
 }
